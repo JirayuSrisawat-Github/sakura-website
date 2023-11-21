@@ -9,7 +9,7 @@ const anuphan = Anuphan({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: `${APP_NAME}`,
-  description: "Best Music Bot For you",
+  description: "ไม่มีบอทดีๆใช้หรอ แต่ เ ร า มี",
 };
 
 export default ({ children }: RootLayoutProps) => (
