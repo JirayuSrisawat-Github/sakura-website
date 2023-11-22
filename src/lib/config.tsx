@@ -26,11 +26,6 @@ export const features = [
     description: "ข้อมูลส่วนตัวของคุณจะถูกเก็บอย่างปลอดภัย",
   },
   {
-    icon: <FaShieldHalved />,
-    title: "ปลอดภัย",
-    description: "ข้อมูลส่วนตัวของคุณจะถูกเก็บอย่างปลอดภัย",
-  },
-  {
     icon: <HiMiniLanguage />,
     title: "รองรับหลายภาษา",
     description: "บอทของเรารองรับภาษาอังกฤษและไทย",
