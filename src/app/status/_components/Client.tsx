@@ -76,7 +76,7 @@ export default () => {
               </p>
             </div>
             <div className="flex my-1 items-center justify-between space-x-4">
-              <h1 className={`transition font-semibold`}>Memory</h1>
+              <h1 className={`transition font-semibold`}>Ping</h1>
               <p>{data?.ping}ms</p>
             </div>
           </div>
