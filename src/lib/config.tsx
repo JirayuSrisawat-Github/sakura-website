@@ -3,7 +3,7 @@ import { GiPresent } from "react-icons/gi";
 import { FaShieldHalved } from "react-icons/fa6";
 import { HiMiniLanguage } from "react-icons/hi2";
 
-export const SAKURA_API_URL = "http://localhost:5151";
+export const SAKURA_API_URL = "http://ger2.deploy.sbs:5007";
 export const APP_NAME = "SAKURA";
 export const INVITE_URL =
   "https://discord.com/api/oauth2/authorize?client_id=1132975288142274720&permissions=8&scope=bot%20applications.commands";
