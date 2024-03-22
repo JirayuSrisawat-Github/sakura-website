@@ -864,7 +864,7 @@
     which "^3.0.1"
     ws "^8.16.0"
 
-"@nuxt/kit@3.11.1", "@nuxt/kit@^3.8.2", "@nuxt/kit@^3.9.1":
+"@nuxt/kit@3.11.1", "@nuxt/kit@^3.10.3", "@nuxt/kit@^3.8.2", "@nuxt/kit@^3.9.1":
   version "3.11.1"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.11.1.tgz#342335f1cbf7422a3e65be67f3ff975e6075decf"
   integrity sha512-8VVlhaY4N+wipgHmSXP+gLM+esms9TEBz13I/J++PbOUJuf2cJlUUTyqMoRVL0xudVKK/8fJgSndRkyidy1m2w==
@@ -888,7 +888,7 @@
     unimport "^3.7.1"
     untyped "^1.4.2"
 
-"@nuxt/kit@^3.10.0", "@nuxt/kit@^3.5.0", "@nuxt/kit@^3.9.3":
+"@nuxt/kit@^3.5.0", "@nuxt/kit@^3.9.3":
   version "3.10.3"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.10.3.tgz#911bc431d9b7541a7269e9e63333f70c8ecb5fd6"
   integrity sha512-PUjYB9Mvx0qD9H1QZBwwtY4fLlCLET+Mm9BVqUOtXCaGoXd6u6BE4e/dGFPk2UEKkIcDGrUMSbqkHYvsEuK9NQ==
@@ -1023,20 +1023,20 @@
     google-fonts-helper "^3.4.1"
     pathe "^1.1.1"
 
-"@nuxtjs/mdc@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/mdc/-/mdc-0.5.0.tgz#16a8b85b7402ba05fc7ff7bed7803dbd69d36582"
-  integrity sha512-480Ajc7o/YAl9b21btd0oRtVe/UjUWmVSEWauS+H+izwEGdGvJTVfZRdaiAXcXKl+UmUTpf+POel027sE9HAZQ==
+"@nuxtjs/mdc@^0.6.0":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/mdc/-/mdc-0.6.1.tgz#2db4630eaeb3b3ee8495e58f344acec174cf2ac9"
+  integrity sha512-zS5QK7DZ/SBrjqQX1DOy7GnxKy+wbj2+LvooefOWmQqHfLTAqJLVIjuv/BmKnQWiRCq19+uysys3iY42EoY5/A==
   dependencies:
-    "@nuxt/kit" "^3.10.0"
-    "@shikijs/transformers" "^1.0.0-beta.6"
+    "@nuxt/kit" "^3.10.3"
+    "@shikijs/transformers" "^1.1.7"
     "@types/hast" "^3.0.4"
     "@types/mdast" "^4.0.3"
-    "@vue/compiler-core" "^3.4.15"
+    "@vue/compiler-core" "^3.4.21"
     consola "^3.2.3"
     debug "^4.3.4"
     defu "^6.1.4"
-    destr "^2.0.2"
+    destr "^2.0.3"
     detab "^3.0.2"
     github-slugger "^2.0.0"
     hast-util-to-string "^3.0.0"
@@ -1053,12 +1053,12 @@
     rehype-sort-attributes "^5.0.0"
     remark-emoji "^4.0.1"
     remark-gfm "^4.0.0"
-    remark-mdc "^3.0.2"
+    remark-mdc "^3.1.0"
     remark-parse "^11.0.0"
     remark-rehype "^11.1.0"
-    scule "^1.2.0"
-    shiki "^1.0.0-beta.6"
-    ufo "^1.3.2"
+    scule "^1.3.0"
+    shiki "^1.1.7"
+    ufo "^1.4.0"
     unified "^11.0.4"
     unist-builder "^4.0.0"
     unist-util-visit "^5.0.0"
@@ -1341,17 +1341,17 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.13.0.tgz#6abd79db7ff8d01a58865ba20a63cfd23d9e2a10"
   integrity sha512-UKXUQNbO3DOhzLRwHSpa0HnhhCgNODvfoPWv2FCXme8N/ANFfhIPMGuOT+QuKd16+B5yxZ0HdpNlqPvTMS1qfw==
 
-"@shikijs/core@1.1.7":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@shikijs/core/-/core-1.1.7.tgz#560de8d503ace894e36934f1e680762ed51ea394"
-  integrity sha512-gTYLUIuD1UbZp/11qozD3fWpUTuMqPSf3svDMMrL0UmlGU7D9dPw/V1FonwAorCUJBltaaESxq90jrSjQyGixg==
+"@shikijs/core@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@shikijs/core/-/core-1.2.0.tgz#c19d1a4d4807d31aa02e9d822aa13da873e6f2e7"
+  integrity sha512-OlFvx+nyr5C8zpcMBnSGir0YPD6K11uYhouqhNmm1qLiis4GA7SsGtu07r9gKS9omks8RtQqHrJL4S+lqWK01A==
 
-"@shikijs/transformers@^1.0.0-beta.6":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@shikijs/transformers/-/transformers-1.1.7.tgz#aee9df395aed77ff94fa95e02297aa0e5267802d"
-  integrity sha512-lXz011ao4+rvweps/9h3CchBfzb1U5OtP5D51Tqc9lQYdLblWMIxQxH6Ybe1GeGINcEVM4goMyPrI0JvlIp4UQ==
+"@shikijs/transformers@^1.1.7":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@shikijs/transformers/-/transformers-1.2.0.tgz#954cbb20324be55340701f56b5815aa454fbdd05"
+  integrity sha512-xKn7DtA65DQV4FOfYsrvqM80xOy2xuXnxWWKsZmHv1VII/IOuDUDsWDu3KnpeLH6wqNJWp1GRoNUsHR1aw/VhQ==
   dependencies:
-    shiki "1.1.7"
+    shiki "1.2.0"
 
 "@sigstore/bundle@^2.2.0":
   version "2.2.0"
@@ -1613,7 +1613,7 @@
     "@babel/parser" "^7.23.6"
     "@vue/compiler-sfc" "^3.4.15"
 
-"@vue/compiler-core@3.4.21", "@vue/compiler-core@^3.4.15":
+"@vue/compiler-core@3.4.21", "@vue/compiler-core@^3.4.21":
   version "3.4.21"
   resolved "https://registry.yarnpkg.com/@vue/compiler-core/-/compiler-core-3.4.21.tgz#868b7085378fc24e58c9aed14c8d62110a62be1a"
   integrity sha512-MjXawxZf2SbZszLPYxaFCjxfibYrzr3eYbKxwpLR9EQN+oaziSu3qKVbwBERj1IFIB8OLUewxB5m/BFzi613og==
@@ -5897,10 +5897,10 @@ remark-gfm@^4.0.0:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-remark-mdc@^3.0.2:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/remark-mdc/-/remark-mdc-3.1.0.tgz#ec2b3691d0972919ef2474402fdce630a53fc29f"
-  integrity sha512-5Hf5w2u59AgzclopOPwMUW4FgEWW6s7AVJf1yRIRIIfydBGrq7sW1rhnwMxsswt9bbMPxiuDwImh8DXPfyA85Q==
+remark-mdc@^3.1.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/remark-mdc/-/remark-mdc-3.2.0.tgz#268a4368ed79ac6783a87a0797937ce55a04cb7f"
+  integrity sha512-zRi5frIC3O/bcxXgUPHfQ3lyRBKPtokrGnsOPvNrt9bqp4EfjPtduzcWgO4R1WeHYUnvl0zeBStvGsFkJIZf+Q==
   dependencies:
     "@types/mdast" "^4.0.3"
     "@types/unist" "^3.0.2"
@@ -6155,12 +6155,12 @@ shell-quote@^1.8.1:
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.8.1.tgz#6dbf4db75515ad5bac63b4f1894c3a154c766680"
   integrity sha512-6j1W9l1iAs/4xYBI1SYOVZyFcCis9b4KCLQ8fgAGG07QvzaRLVVRQvAy85yNmmZSjYjg4MWh4gNvlPujU/5LpA==
 
-shiki@1.1.7, shiki@^1.0.0-beta.6:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/shiki/-/shiki-1.1.7.tgz#270f7830b4d08bdf6b63eb97ef93e06c7af604de"
-  integrity sha512-9kUTMjZtcPH3i7vHunA6EraTPpPOITYTdA5uMrvsJRexktqP0s7P3s9HVK80b4pP42FRVe03D7fT3NmJv2yYhw==
+shiki@1.2.0, shiki@^1.1.7:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/shiki/-/shiki-1.2.0.tgz#7f1b6917cbb10daa1ac3ae62fa29b40c494e2812"
+  integrity sha512-xLhiTMOIUXCv5DqJ4I70GgQCtdlzsTqFLZWcMHHG3TAieBUbvEGthdrlPDlX4mL/Wszx9C6rEcxU6kMlg4YlxA==
   dependencies:
-    "@shikijs/core" "1.1.7"
+    "@shikijs/core" "1.2.0"
 
 signal-exit@^3.0.0, signal-exit@^3.0.7:
   version "3.0.7"
