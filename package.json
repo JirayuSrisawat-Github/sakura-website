@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@vueuse/core": "^10.9.0",
+    "@vueuse/core": "^11.0.0",
     "nuxt": "^3.10.3",
     "postcss-custom-properties": "^13.3.6",
     "vue": "^3.4.19",
