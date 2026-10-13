@@ -14,7 +14,7 @@
     "nuxt": "^3.10.3",
     "postcss-custom-properties": "^13.3.6",
     "vue": "^3.4.19",
-    "vue-router": "^4.3.0"
+    "vue-router": "^5.0.0"
   },
   "devDependencies": {
     "@nuxtjs/google-fonts": "^3.1.3",
