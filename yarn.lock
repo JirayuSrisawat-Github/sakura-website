@@ -1698,6 +1698,11 @@
   resolved "https://registry.yarnpkg.com/@types/web-bluetooth/-/web-bluetooth-0.0.20.tgz#f066abfcd1cbe66267cdbbf0de010d8a41b41597"
   integrity sha512-g9gZnnXVq7gM7v3tJCWV/qw7w+KeOlSHAhgF9RytFyifW6AF61hdT2ucrYhPq9hLs5JIryeupHV3qGk95dH9ow==
 
+"@types/web-bluetooth@^0.0.22":
+  version "0.0.22"
+  resolved "https://registry.yarnpkg.com/@types/web-bluetooth/-/web-bluetooth-0.0.22.tgz#d587ebfe9e4b28ff2965e5177beaf5a293ac838a"
+  integrity sha512-4O7kU0Ut0irZvFyk3EvgDrzFYBQI80Puhkb65I7eV6WTZX4iOo5zoDrEfjDBRB7x5Stz31csoHO4hAjSiRTALw==
+
 "@ungap/structured-clone@^1.0.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@ungap/structured-clone/-/structured-clone-1.2.0.tgz#756641adb587851b5ccb3e095daf27ae581c8406"
@@ -2099,6 +2104,15 @@
     "@vueuse/shared" "10.9.0"
     vue-demi ">=0.14.7"
 
+"@vueuse/core@^15.0.0":
+  version "15.1.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-15.1.0.tgz#e33a17fc754844acbd6469328a3c07a00e91917e"
+  integrity sha512-OuZ5ecLw/sikX0HFjlJM/p/PkfL0567Ntfov9G0jYlw92QqZpPVikZOoB1Mpe4unZ+7E/QQ+uFpEgAjj2FYRbw==
+  dependencies:
+    "@types/web-bluetooth" "^0.0.22"
+    "@vueuse/metadata" "15.1.0"
+    "@vueuse/shared" "15.1.0"
+
 "@vueuse/integrations@^10.9.0":
   version "10.11.0"
   resolved "https://registry.yarnpkg.com/@vueuse/integrations/-/integrations-10.11.0.tgz#ce2746587172af9ab8faa713f42e619609ed0de1"
@@ -2118,6 +2132,11 @@
   resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-10.9.0.tgz#769a1a9db65daac15cf98084cbf7819ed3758620"
   integrity sha512-iddNbg3yZM0X7qFY2sAotomgdHK7YJ6sKUvQqbvwnf7TmaVPxS4EJydcNsVejNdS8iWCtDk+fYXr7E32nyTnGA==
 
+"@vueuse/metadata@15.1.0":
+  version "15.1.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-15.1.0.tgz#72f0464a632d98564565dc958697d509b1ccbaa6"
+  integrity sha512-yHKFelRTdQdp7vdjXXEw68Wh9v8OgyxWm1v1aHbGM6Z4qbqHhB6QgB8MTNB76pZYh22wPeALCdr8qjShlxPBHA==
+
 "@vueuse/shared@10.11.0":
   version "10.11.0"
   resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-10.11.0.tgz#be09262b2c5857069ed3dadd1680f22c4cb6f984"
@@ -2131,6 +2150,11 @@
   integrity sha512-Uud2IWncmAfJvRaFYzv5OHDli+FbOzxiVEQdLCKQKLyhz94PIyFC3CHcH7EDMwIn8NPtD06+PNbC/PiO0LGLtw==
   dependencies:
     vue-demi ">=0.14.7"
+
+"@vueuse/shared@15.1.0":
+  version "15.1.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-15.1.0.tgz#477e51994fcad14a2b35d82c68a380af5161ebf9"
+  integrity sha512-JAbQLO+vOULt8MPR4oRbvstBuztTTMIX4LOfCGeBvp9JSgj5OppZDing3gKDrmlyUQvYYFSPIX4dxkfJgdsxWQ==
 
 abbrev@1:
   version "1.1.1"
